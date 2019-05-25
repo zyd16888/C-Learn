@@ -18,7 +18,7 @@ public:
 	friend MyComplex operator-(MyComplex m, MyComplex n);
 	friend MyComplex operator*(MyComplex m, MyComplex n);
 	friend MyComplex operator/(MyComplex m, MyComplex n);
-	friend ostream& operator<<(ostream& s, MyComplex t);
+	friend ostream& operator<<(ostream& s, MyComplex& t);
 	friend istream& operator>>(istream& s, MyComplex& t);
 	~MyComplex();
 

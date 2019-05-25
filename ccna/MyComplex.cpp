@@ -52,7 +52,7 @@ MyComplex operator/(MyComplex m, MyComplex n)
 	return c;
 }
 
-ostream& operator<<(ostream& s, MyComplex t)
+ostream& operator<<(ostream& s, MyComplex& t)
 {
 	s << "(" << t.real << "," << t.imag << "i) " << endl;
 	return s;

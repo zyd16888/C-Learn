@@ -39,7 +39,6 @@ int main()
 	cout << "f6 = " << f6;
 	cout << "f7 = " << f7;
 	cout << "f8 = " << f8;
-//	cout << "a = " << f9;
-//	cout << "b = " << b;
+
 }
 
