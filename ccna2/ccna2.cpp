@@ -11,8 +11,7 @@ int main()
 	MyString st1;
 	cin >> st1;
 	cout<< "st1 = " << st1;
-
-
+	
 	const char* st2 = "hello,world";
 	MyString st3 = "ABCDEFG";
 	MyString st4(st2);
@@ -60,11 +59,3 @@ int main()
 	cout << "ptr = " << ptr << endl;
 }
 
-
-void menu()
-{
-	cout << "字符串处理" << endl;
-	cout << "1.判断字符串是否相等" << endl;
-	cout << "2.判断字符串大小" << endl;
-	cout << "3.判断字符串"
-}
